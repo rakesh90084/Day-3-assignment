@@ -1,0 +1,5 @@
+n1=int(input("Enter 1st no:"))
+n2=int(input("Enter 2nd no:"))
+n3=int(input("Enter 3rd no:"))
+num=(n1,n2,n3)
+print("The smallest among three nos is:", min(num))
