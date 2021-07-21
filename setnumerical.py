@@ -1,0 +1,12 @@
+set1={12,13,14,15,16,17,18,19,20}
+print(set1)
+set1.add(21)
+print(set1)
+set1.remove(12)
+print(set1)
+set1.discard(13)
+print(set1)
+set2={22,23,34,14,15}
+print(set1&set2)
+print(set1.issubset(set2))
+print(set1.difference(set2))
